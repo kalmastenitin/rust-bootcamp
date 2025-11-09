@@ -1,0 +1,5 @@
+A command-line utility wouldn’t be complete if it wasn’t able to read from stdin.
+Unfortunately for those readers who skimmed over earlier parts of this chapter, some
+of the syntax on line 8 might look quite unfamiliar. In short, rather than duplicate
+code within main(), we’ll use a generic function to abstract away the details of whether
+we are dealing with files or stdin
